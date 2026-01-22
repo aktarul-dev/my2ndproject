@@ -30,7 +30,7 @@ const PricingSection = () => {
         "Priority Support",
         "Access to all template",
         "25GB Storage",
-        "Advanced Ak=nalytics",
+        "Advanced Analytics",
       ],
     },
     {
@@ -44,7 +44,7 @@ const PricingSection = () => {
         "Priority Support",
         "Access to all template",
         "25GB Storage",
-        "Advanced Ak=nalytics",
+        "Advanced Analytics",
       ],
     },
   ]
@@ -71,7 +71,7 @@ const PricingSection = () => {
       </div>
 
       {/* Pricing Plan */}
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 px-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 px-6 sm:px-10 md:px-14 lg:px-20 '>
         {
           pricingPlan.map((plan, index) =>(
             <div key={plan.id} className='bg-white border border-gray-200 rounded-lg overflow-hidden 
