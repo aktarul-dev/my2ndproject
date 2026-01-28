@@ -5,7 +5,7 @@ const Blogs = () => {
   const blogs = [
     {
       id: 1,
-      image: "/blog.jpg",
+      image: "/blog1.jpg",
       category: "Technology",
       title: "How AI is Shaping the Future of Web Development",
       description:
@@ -13,7 +13,7 @@ const Blogs = () => {
     },
     {
       id: 2,
-      image: "/blog.jpg",
+      image: "/blog.png",
       category: "Technology",
       title: "How AI is Shaping the Future of Web Development",
       description:
@@ -21,7 +21,7 @@ const Blogs = () => {
     },
     {
       id: 3,
-      image: "/blog.jpg",
+      image: "/blog2.png",
       category: "Technology",
       title: "How AI is Shaping the Future of Web Development",
       description:
