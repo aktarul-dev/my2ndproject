@@ -26,9 +26,9 @@ const Testimonial = () => {
 
               {/* Overlay Content */}
               <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center px-4">
-                <p className="text-white text-sm sm:text-base md:text-lg max-w-xl">
+                {/* <p className="text-white text-sm sm:text-base md:text-lg max-w-xl">
                   “Amazing service! The team was very professional and helpful.”
-                </p>
+                </p> */}
                 <h4 className="text-white font-semibold mt-4">
                   John Doe
                 </h4>

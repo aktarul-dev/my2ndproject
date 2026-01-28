@@ -49,7 +49,7 @@ const PricingSection = () => {
   ];
 
   return (
-    <div className='bg-gray-100 py-12 px-4 sm:px-6 lg:px-20'>
+    <div className='bg-gray-100 py-12 px-4 sm:px-6 lg:px-20 '>
       <HeadingSection 
         heading="Choose Your Plan" 
         subheading="Pricing" 
@@ -78,7 +78,7 @@ const PricingSection = () => {
       {/* Pricing Plans */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:p-20'>
         {pricingPlan.map((plan) => (
-          <div key={plan.id} className='bg-white border border-gray-200 rounded-2xl shadow-md hover:shadow-lg transition duration-300'>
+          <div key={plan.id} className='bg-white border pb-14 border-gray-200 rounded-2xl shadow-md hover:shadow-lg transition duration-300'>
             {/* Header */}
             <div className='p-6 text-center'>
               <h3 className='text-xl font-semibold text-gray-800 mb-2'>{plan.name}</h3>

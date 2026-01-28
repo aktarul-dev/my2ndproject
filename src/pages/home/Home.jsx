@@ -6,6 +6,7 @@ import Services from './Services'
 import Testimonial from './Testimonial'
 import Blogs from '../blogs/Blogs'
 import PricingSection from './PricingSection'
+import FAQSection from './FAQSection'
 
 
 
@@ -21,6 +22,8 @@ const Home = () => {
       <Testimonial />
       <Blogs />
       <PricingSection />
+      <FAQSection />
+      
 
      
 
