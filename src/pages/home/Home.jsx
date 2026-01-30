@@ -7,6 +7,7 @@ import Testimonial from './Testimonial'
 import Blogs from '../blogs/Blogs'
 import PricingSection from './PricingSection'
 import FAQSection from './FAQSection'
+import NewsLatterSection from '../blogs/NewsLatterSection'
 
 
 
@@ -23,9 +24,10 @@ const Home = () => {
       <Blogs />
       <PricingSection />
       <FAQSection />
-      
+      <NewsLatterSection />
 
-     
+
+
 
     </>
   )
