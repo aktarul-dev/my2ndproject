@@ -15,7 +15,7 @@ const Footer = () => {
 
                     {/* Brand */}
                     <div>
-                        <h2 to="/" className="btn btn-ghost text-3xl font-bold hidden md:flex tex mb-8 mr-52">
+                        <h2 to="/" className="btn btn-ghost text-3xl font-bold hidden md:flex tex mb-8 mr-35">
                             web<span className="text-blue-600">Code</span>
                         </h2>
                         <p className="text-sm leading-relaxed">
@@ -46,10 +46,10 @@ const Footer = () => {
                             Company
                         </h3>
                         <ul className="space-y-3 text-sm">
-                            <li className="hover:text-white cursor-pointer">About Us</li>
-                            <li className="hover:text-white cursor-pointer">Careers</li>
-                            <li className="hover:text-white cursor-pointer">Blog</li>
-                            <li className="hover:text-white cursor-pointer">Press</li>
+                            <li className="hover:text-black cursor-pointer">About Us</li>
+                            <li className="hover:text-black cursor-pointer">Careers</li>
+                            <li className="hover:text-black cursor-pointer">Blog</li>
+                            <li className="hover:text-black cursor-pointer">Press</li>
                         </ul>
                     </div>
 
