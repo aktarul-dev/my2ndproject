@@ -35,7 +35,7 @@ const Services = () => {
 
   return (
     <section className="bg-white py-12 sm:py-16 md:py-20">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-8 md:px-16">
+      <div className="max-w-screen-2xl mx-auto px-4 sm:px-8 md:px-16 mt-12 sm:mt-0 md:mt-0 lg:mt-0">
 
         {/* Heading */}
         <HeadingSection
