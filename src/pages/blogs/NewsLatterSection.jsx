@@ -20,7 +20,7 @@ const NewsLatterSection = () => {
                     <button className='cursor-pointer bg-blue-600 py-3 px-6 rounded-xl hover:bg-blue-800 transition '>
                         <span className='text-base text-white font-semibold'>Subscribe Now</span>
                     </button>
-                    <button className='cursor-pointer hover:bg-blue-600 transition hover:text-white bg-white py-3 px-6 border border-gray-300 rounded-xl text-blue-600 font-semibold'>
+                    <button className='cursor-pointer hover:bg-blue-600 transition hover:text-white bg-white py-3 px-6 border border-blue-600 rounded-xl text-blue-600 font-semibold'>
                         <span>Learn More</span>
                     </button>
                 </div>
