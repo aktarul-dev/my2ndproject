@@ -13,7 +13,7 @@ const HeroSection = () => {
 
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight mt-10 sm:mt-0">
+          <h1 className="text-xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight mt-10 sm:mt-0">
             Creative Web
             <span className="block text-blue-600">Design For Businesses</span>
           </h1>
