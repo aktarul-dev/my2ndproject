@@ -39,7 +39,7 @@ const Blogs = () => {
 
   return (
     <div className="max-w-screen-2xl mx-auto mt-20 sm:mt-0 md:mt-0 lg:mt-0
-     mb-12 px-4 pt-22">
+     mb-12 px-4 pt-8">
 
       {/* Heading */}
       <HeadingSection
