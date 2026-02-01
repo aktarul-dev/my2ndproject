@@ -40,7 +40,7 @@ const Footer = () => {
 
                     {/* Company */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Company</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-blue-600">Company</h3>
                         <ul className="space-y-3 text-sm">
                             <li className="hover:text-blue-600 cursor-pointer">About Us</li>
                             <li className="hover:text-blue-600 cursor-pointer">Careers</li>
@@ -51,7 +51,7 @@ const Footer = () => {
 
                     {/* Support */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Support</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-blue-600">Support</h3>
                         <ul className="space-y-3 text-sm">
                             <li className="hover:text-blue-600 cursor-pointer">Help Center</li>
                             <li className="hover:text-blue-600 cursor-pointer">Contact Us</li>
@@ -62,7 +62,7 @@ const Footer = () => {
 
                     {/* Contact */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Contact</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-blue-600">Contact</h3>
 
                         <div className="flex flex-col gap-3">
                             <input

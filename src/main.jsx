@@ -8,6 +8,8 @@ import Home from './pages/home/Home.jsx'
 import BlankPage from './pages/dashboard/BlankPage.jsx'
 import Services from './pages/home/Services.jsx'
 import Blogs from './pages/blogs/Blogs.jsx'
+import RegisterPage from './Authentication/RegisterPage.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -20,8 +22,14 @@ createRoot(document.getElementById('root')).render(
 
         {/* 404 route */}
         <Route path="*" element={<BlankPage />} />
-
       </Route>
+
+
+      {/* Authentication  */}
+      <Route path='register' element={<RegisterPage />} />
+      <Route path='logIN' element={<div>Login Page</div>} />
+
+
     </Routes>
   </BrowserRouter>
 )

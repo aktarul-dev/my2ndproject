@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
+import RegisterPage from "../Authentication/RegisterPage";
+
 
 const Navbar = () => {
   return (
@@ -82,7 +84,7 @@ const Navbar = () => {
 
           {/* Login (Tablet & Desktop) */}
           <Link
-            to="/login"
+            to="/register"
             className="hidden md:inline-flex btn btn-outline btn-primary"
           >
             Log In
