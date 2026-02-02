@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import RegisterPage from "../Authentication/RegisterPage";
+import RegisterPage from "./RegisterPage";
 
 
 const Navbar = () => {

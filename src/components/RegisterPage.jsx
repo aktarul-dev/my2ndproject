@@ -6,8 +6,8 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 const RegisterPage = () => {
     return (
-        <div className='min-h-screen bg-gray-600 flex items-center justify-center'>
-            <div className='bg-white p-4 rounded-xl max-w-[400px] shadow-md w-full space-y-2  pb-6'>
+        <div className='min-h-screen bg-gray-600 flex items-center justify-center px-4'>
+            <div className='bg-white p-4 rounded-xl max-w-[400px] shadow-md w-full space-y-2  pb-6 mx-4'>
                 <h1 className='font-bold text-md text-center '>Register Now</h1>
 
 
@@ -54,7 +54,8 @@ const RegisterPage = () => {
                     </button>
                 </section>
 
-                <p className='p-2 text-center font-semibold'>Have an account? Please LogIn</p>
+                <p className='p-2 text-center font-semibold'>Have an account? <Link className='text-blue-600
+                hover:underline transition ' to='/logIN'> Please LogIn</Link></p>
 
             </div>
         </div>
