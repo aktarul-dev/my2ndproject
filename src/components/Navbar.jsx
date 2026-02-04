@@ -85,7 +85,7 @@ const Navbar = () => {
           {/* Login (Tablet & Desktop) */}
           <Link
             to="/register"
-            className="hidden md:inline-flex btn btn-outline btn-primary"
+            className="btn btn-outline btn-primary"
           >
             Log In
           </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
           {/* Free Trial */}
           <Link
             to="/pricing"
-            className="btn btn-primary bg-blue-600 border-none hover:bg-blue-800 duration-300 cursor-pointer"
+            className="hidden md:inline-flex btn btn-primary bg-blue-600 border-none hover:bg-blue-800 duration-300 cursor-pointer"
           >
             Start Free Trial
           </Link>
