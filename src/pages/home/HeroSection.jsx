@@ -8,8 +8,8 @@ const HeroSection = () => {
 
   return (
     <section className="bg-[#F5F0F0]">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-8 md:px-16
-        py-12 sm:py-16 md:py-20 flex flex-col lg:flex-row items-center gap-10">
+      <div className="min-h-screen max-w-screen-2xl mx-auto px-4 sm:px-8 md:px-40
+        py-12 sm:py-16 md:py-20 flex flex-col lg:flex-row items-center gap-10 ">
 
         {/* Left Content */}
         <div className="lg:w-1/2 text-center lg:text-left">

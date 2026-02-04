@@ -1,18 +1,62 @@
 import React from 'react'
+import { IoLogoGoogle } from "react-icons/io";
+import { FaGitSquare } from "react-icons/fa";
+import { IoLogoFacebook } from "react-icons/io5";
+
 
 const LoginPage = () => {
+    const buttons = [
+        {
+            id: 1,
+            title: "Google",
+            Icon: IoLogoGoogle,
+        },
+        {
+            id: 2,
+            title: "Github",
+            Icon: FaGitSquare,
+        },
+        {
+            id: 3,
+            title: "Facebook",
+            Icon: IoLogoFacebook,
+        },
+    ]
     return (
         <div className='min-h-screen bg-gray-600 flex items-center justify-center shadow-lg '>
-            <div className='bg-white max-w-md p-4  w-full rounded-xl'>
-                <h1 className='text-center font-bold text-md mb-3'>Login now</h1>
+            <div className='bg-white max-w-[400px] p-4  w-full rounded-xl'>
+                <h1 className='text-center font-bold text-md mb-3'>Login Now</h1>
 
                 {/* From section */}
                 <form className='space-y-4'>
                     <div>
-                        <label className='inline-block text-base font-semibold text-gray-800'>From:</label>
-                        <input type="email" placeholder='write your email'
-                            className={`w-full px-4 py-1.5
-//                         focus:outline-none focus:ring-2 ring-blue-500 border rounded-md`} />
+                        <label className='inline-block text-gray-800 font-semibold'>Email:</label>
+                        <input type="email" placeholder='write your email' className={`
+                             w-full px-4 py-1.5 rounded-md focus:outline-none focus:ring-1 text-sm`} />
+
+                    </div>
+                    <div>
+                        <label className='text-black text-gray-800 font-semibold'>Password</label>
+                        <input type="password" placeholder='write your password' className={`
+                            text-sm focus:ring-none focus:ring-1 rounded-md w-full px-4 py-1.5 `} />
+                    </div>
+
+                    <button className='bg-blue-600 hover:bg-blue-700 transition px-2 py-1.5 w-full rounded-md text-white mt-2'>
+                        Login
+                    </button>
+                    <p className='text-center'>or Log-in with</p>
+
+                    {/* socal Icon */}
+                    <div className='flex gap-2'>
+                        {
+                            buttons.map((btn, index) => (
+                                <button key={btn.id} className='flex gap-1 items-center justify-center px-4 py-2 mx-auto border border-blue-600
+                                rounded shadow-xl text-sm hover:bg-gray-600 transition cursor-pointer duration-300 hover:text-white'>
+                                    <btn.Icon size={20} className='text-blue-600 text-xl' />
+                                    {btn.title}
+                                </button>
+                            ))
+                        }
                     </div>
                 </form>
             </div>
@@ -35,9 +79,9 @@ export default LoginPage
 
 // import React from 'react'
 // import { Link } from 'react-router'
-// import { FaGoogle } from "react-icons/fa6";
-// import { FaFacebookSquare } from "react-icons/fa";
-// import { FaSquareGithub } from "react-icons/fa6";
+// import { FaGoogle } from "react-Icons/fa6";
+// import { FaFacebookSquare } from "react-Icons/fa";
+// import { FaSquareGithub } from "react-Icons/fa6";
 
 // const RegisterPage = () => {
 //     return (
